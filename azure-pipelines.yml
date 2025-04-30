@@ -24,7 +24,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: 'dist/online-course/browser'
+    pathToPublish: 'dist/enroll-course-ui/browser'
     artifactName: 'drop'
     publishLocation: 'Container'
   displayName: 'Publish build artifacts'
