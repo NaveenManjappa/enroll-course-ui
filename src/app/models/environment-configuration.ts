@@ -5,7 +5,7 @@ export interface EnvironmentConfiguration {
   apiEndpoints:{
     userProfile:string;
   },
-  azb2cConfig:{
+  adb2cConfig:{
     clientId:string;
     readScopeUrl:string;
     scopeUrls:string[];
